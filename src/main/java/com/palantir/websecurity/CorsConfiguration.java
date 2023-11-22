@@ -59,10 +59,10 @@ public abstract class CorsConfiguration {
     public abstract Optional<Long> preflightMaxAge();
 
     /**
-     * The methods isPreflightMaxAgeNegative & isAllowedOriginsValid are never explicitly called
-     * which caused errorprone warnings, these are implicitly called by dropwizard
+     * This method is never explicitly called which causes errorprone warnings, however it is
+     * implicitly called by dropwizard
      * (https://www.dropwizard.io/en/stable/manual/validation.html#annotations). We should supress
-     * these warnings as we know that these methods being unused is not problematic.
+     * this warning as we know that it being unused is not problematic.
      */
     @ValidationMethod(message = "preflightMaxAge can't be negative")
     @SuppressWarnings("unused")
@@ -70,6 +70,12 @@ public abstract class CorsConfiguration {
         return preflightMaxAge().or(0L) >= 0L;
     }
 
+    /**
+     * This method is never explicitly called which causes errorprone warnings, however it is
+     * implicitly called by dropwizard
+     * (https://www.dropwizard.io/en/stable/manual/validation.html#annotations). We should supress
+     * this warning as we know that it being unused is not problematic.
+     */
     @ValidationMethod(
             message =
                     "allowedOrigins can't contain malformed URLs, URLs with a path, or malformed regex")
