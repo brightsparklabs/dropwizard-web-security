@@ -16,6 +16,7 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Locale;
 
 /**
  * A filter that injects the App Security headers using a {@link WebSecurityHeaderInjector} to all
@@ -64,7 +65,8 @@ public final class JerseyAwareWebSecurityFilter implements Filter {
     }
 
     private boolean isJerseyRequest(HttpServletRequest request) {
-        String cleanedServletPath = cleanJerseyRoot(request.getServletPath().toLowerCase());
+        String cleanedServletPath =
+                cleanJerseyRoot(request.getServletPath().toLowerCase(Locale.getDefault()));
         return this.jerseyRoot.equals(cleanedServletPath);
     }
 
