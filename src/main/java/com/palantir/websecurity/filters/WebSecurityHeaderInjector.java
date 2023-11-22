@@ -6,8 +6,8 @@ package com.palantir.websecurity.filters;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import com.google.common.net.HttpHeaders;
 import com.palantir.websecurity.WebSecurityConfiguration;
+import com.google.common.net.HttpHeaders;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 

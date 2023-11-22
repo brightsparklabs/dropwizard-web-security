@@ -4,12 +4,12 @@
 
 package com.palantir.websecurity.examples;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.google.common.annotations.VisibleForTesting;
 import com.palantir.websecurity.CorsConfiguration;
 import com.palantir.websecurity.WebSecurityBundle;
 import com.palantir.websecurity.WebSecurityConfigurable;
 import com.palantir.websecurity.WebSecurityConfiguration;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.common.annotations.VisibleForTesting;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.core.Application;
 import io.dropwizard.core.Configuration;

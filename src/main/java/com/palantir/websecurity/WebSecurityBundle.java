@@ -7,8 +7,8 @@ package com.palantir.websecurity;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
-import com.google.common.collect.ImmutableMap;
 import com.palantir.websecurity.filters.JerseyAwareWebSecurityFilter;
+import com.google.common.collect.ImmutableMap;
 import io.dropwizard.core.Configuration;
 import io.dropwizard.core.ConfiguredBundle;
 import io.dropwizard.core.server.AbstractServerFactory;

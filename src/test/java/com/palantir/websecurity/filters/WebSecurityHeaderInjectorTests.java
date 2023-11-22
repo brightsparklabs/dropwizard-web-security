@@ -7,8 +7,8 @@ package com.palantir.websecurity.filters;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-import com.google.common.net.HttpHeaders;
 import com.palantir.websecurity.WebSecurityConfiguration;
+import com.google.common.net.HttpHeaders;
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;

@@ -4,7 +4,7 @@
 
 plugins {
     // Apply the brightSPARK Labs plugin for standardisation.
-    id 'com.brightsparklabs.gradle.baseline' version "4.2.0"
+    id 'com.brightsparklabs.gradle.baseline' version "4.3.0"
 
     id 'java'
 }
@@ -42,7 +42,7 @@ repositories {
 
 dependencies {
     def versions = [
-        dropwizard: '4.0.0',
+        dropwizard: '4.0.4',
         immutables: '2.9.3',
     ]
     // These dependencies are found on compile classpath of this component and consumers.
@@ -65,9 +65,9 @@ dependencies {
             "io.dropwizard:dropwizard-assets:${versions.dropwizard}",
             "io.dropwizard:dropwizard-client:${versions.dropwizard}",
             "io.dropwizard:dropwizard-testing:${versions.dropwizard}",
-            'org.junit.jupiter:junit-jupiter-api:5.10.0',
-            'org.mockito:mockito-core:5.4.0',
-            'org.springframework:spring-test:6.0.11',
+            'org.junit.jupiter:junit-jupiter-api:5.10.1',
+            'org.mockito:mockito-core:5.7.0',
+            'org.springframework:spring-test:6.1.0',
             'jakarta.validation:jakarta.validation-api:3.0.2',
             )
 
