@@ -2,12 +2,12 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.palantir.websecurity.examples;
+package com.brightsparklabs.websecurity.examples;
 
-import com.palantir.websecurity.CorsConfiguration;
-import com.palantir.websecurity.WebSecurityBundle;
-import com.palantir.websecurity.WebSecurityConfigurable;
-import com.palantir.websecurity.WebSecurityConfiguration;
+import com.brightsparklabs.websecurity.CorsConfiguration;
+import com.brightsparklabs.websecurity.WebSecurityBundle;
+import com.brightsparklabs.websecurity.WebSecurityConfigurable;
+import com.brightsparklabs.websecurity.WebSecurityConfiguration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.annotations.VisibleForTesting;
 import io.dropwizard.assets.AssetsBundle;

@@ -2,7 +2,7 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.palantir.websecurity;
+package com.brightsparklabs.websecurity;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;

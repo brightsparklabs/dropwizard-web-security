@@ -2,13 +2,13 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.palantir.websecurity.filters;
+package com.brightsparklabs.websecurity.filters;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.mock;
 
-import com.palantir.websecurity.WebSecurityConfiguration;
+import com.brightsparklabs.websecurity.WebSecurityConfiguration;
 import com.google.common.net.HttpHeaders;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

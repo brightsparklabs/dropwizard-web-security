@@ -22,7 +22,7 @@ Usage
     }
 
     dependencies {
-        compile 'com.palantir.websecurity:dropwizard-web-security:<latest-version>'
+        compile 'com.brightsparklabs.websecurity:dropwizard-web-security:<latest-version>'
     }
     ```
 
