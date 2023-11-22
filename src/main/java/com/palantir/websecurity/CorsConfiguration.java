@@ -58,6 +58,12 @@ public abstract class CorsConfiguration {
     /** If set, will be used to set the initial property {@code preflightMaxAge}. */
     public abstract Optional<Long> preflightMaxAge();
 
+    /**
+     * The methods isPreflightMaxAgeNegative & isAllowedOriginsValid are never explicitly called
+     * which caused errorprone warnings, these are implicitly called by dropwizard
+     * (https://www.dropwizard.io/en/stable/manual/validation.html#annotations). We should supress
+     * these warnings as we know that these methods being unused is not problematic.
+     */
     @ValidationMethod(message = "preflightMaxAge can't be negative")
     @SuppressWarnings("unused")
     private boolean isPreflightMaxAgeNegative() {
