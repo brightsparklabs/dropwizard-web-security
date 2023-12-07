@@ -1,5 +1,8 @@
 /*
- * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
+ * (c) Copyright 2016-2017 Palantir Technologies Inc. All rights reserved.
+ *
+ * (c) Copyright 2023 brightSPARK Labs (from commit `c2774cac049bb0007d14790527ea2499670fef83` onwards).
+ * All rights reserved.
  */
 
 package com.palantir.websecurity;
@@ -7,8 +10,8 @@ package com.palantir.websecurity;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
-import com.palantir.websecurity.filters.JerseyAwareWebSecurityFilter;
 import com.google.common.collect.ImmutableMap;
+import com.palantir.websecurity.filters.JerseyAwareWebSecurityFilter;
 import io.dropwizard.core.Configuration;
 import io.dropwizard.core.ConfiguredBundle;
 import io.dropwizard.core.server.AbstractServerFactory;
