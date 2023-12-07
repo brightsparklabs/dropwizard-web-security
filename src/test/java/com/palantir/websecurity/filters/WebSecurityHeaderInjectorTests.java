@@ -2,12 +2,12 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.brightsparklabs.websecurity.filters;
+package com.palantir.websecurity.filters;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-import com.brightsparklabs.websecurity.WebSecurityConfiguration;
+import com.palantir.websecurity.WebSecurityConfiguration;
 import com.google.common.net.HttpHeaders;
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockHttpServletRequest;

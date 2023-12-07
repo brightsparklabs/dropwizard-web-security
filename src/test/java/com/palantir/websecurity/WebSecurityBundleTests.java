@@ -2,7 +2,7 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.brightsparklabs.websecurity;
+package com.palantir.websecurity;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

@@ -2,7 +2,7 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.brightsparklabs.websecurity;
+package com.palantir.websecurity;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;

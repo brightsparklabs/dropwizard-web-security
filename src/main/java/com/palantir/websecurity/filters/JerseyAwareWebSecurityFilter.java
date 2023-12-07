@@ -2,11 +2,11 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.brightsparklabs.websecurity.filters;
+package com.palantir.websecurity.filters;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import com.brightsparklabs.websecurity.WebSecurityConfiguration;
+import com.palantir.websecurity.WebSecurityConfiguration;
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.FilterConfig;

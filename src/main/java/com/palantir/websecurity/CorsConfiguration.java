@@ -2,7 +2,7 @@
  * (c) Copyright 2016 Palantir Technologies Inc. All rights reserved.
  */
 
-package com.brightsparklabs.websecurity;
+package com.palantir.websecurity;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.google.common.base.Optional;
