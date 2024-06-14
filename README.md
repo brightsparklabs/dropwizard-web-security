@@ -16,11 +16,7 @@ A bundle for applying default web security functionality to a dropwizard applica
 
 | Bundle Version | Dropwizard Version | Java Version | Notes
 | -------------- | ------------------ | ------------ | ---------
-| 2.x.y          | 3.x.y              | 17           |
-Dropwizard 3.0 [changed core dropwizard
-packages](https://www.dropwizard.io/en/stable/manual/upgrade-notes/upgrade-notes-3_0_x.html#dropwizard-package-structure-and-jpms).
-Dropwizard 4.0 [transitioned to
-Jakarta](https://www.dropwizard.io/en/stable/manual/upgrade-notes/upgrade-notes-4_0_x.html#transition-to-jakarta-ee).
+| 2.x.y          | 3.x.y              | 17           | Dropwizard 3.0 [changed core dropwizard packages](https://www.dropwizard.io/en/stable/manual/upgrade-notes/upgrade-notes-3_0_x.html#dropwizard-package-structure-and-jpms). Dropwizard 4.0 [transitioned to Jakarta](https://www.dropwizard.io/en/stable/manual/upgrade-notes/upgrade-notes-4_0_x.html#transition-to-jakarta-ee).
 | 1.x.y          | 1.x.y              | 8            | Initial release
 
 
