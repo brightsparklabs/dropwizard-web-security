@@ -25,7 +25,7 @@ import org.immutables.value.Value;
  */
 @Value.Immutable
 @ImmutableStyles
-@JsonDeserialize(as = ImmutableCorsConfiguration.class)
+@JsonDeserialize(builder = ImmutableCorsConfiguration.Builder.class)
 @SuppressWarnings("checkstyle:designforextension")
 public abstract class CorsConfiguration {
 
