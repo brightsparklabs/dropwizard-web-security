@@ -14,7 +14,7 @@ import org.immutables.value.Value.Immutable;
 /** Root-level Configuration for the {@link WebSecurityBundle}. */
 @Immutable
 @ImmutableStyles
-@JsonDeserialize(as = ImmutableWebSecurityConfiguration.class)
+@JsonDeserialize(builder = ImmutableWebSecurityConfiguration.Builder.class)
 public abstract class WebSecurityConfiguration {
 
     public static final String TURN_OFF = "";
